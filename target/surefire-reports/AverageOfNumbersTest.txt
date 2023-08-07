@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: AverageOfNumbersTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.22 s <<< FAILURE! - in AverageOfNumbersTest
+randomInputTest(AverageOfNumbersTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: 
+When input equals:
+-3999
+-2750
+-1148
+-3329
+-1405
+6191
+end
+
+the average should be: -1073.3333333333333
+Instead it was: 
+
+	at AverageOfNumbersTest.randomInputTest(AverageOfNumbersTest.java:64)
+
+firstInputTest(AverageOfNumbersTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+When input equals:
+2
+4
+6
+end
+
+the average should be: 4.0
+Instead it was: 
+	at AverageOfNumbersTest.firstInputTest(AverageOfNumbersTest.java:24)
+
+secondInputTest(AverageOfNumbersTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+When input equals:
+-1
+1
+2
+end
+
+the average should be: 0.666666
+Instead it was: 
+	at AverageOfNumbersTest.secondInputTest(AverageOfNumbersTest.java:34)
+
